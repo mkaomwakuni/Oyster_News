@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Oyster News</string>
+    <string name="defValue_user">user</string>
+    <string name="profile">profile</string>
+    <string name="title_status">Account User</string>
+    <string name="title_dialog_status">Add  your  name</string>
 </resources>

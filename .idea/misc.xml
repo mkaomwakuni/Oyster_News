@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/earl/AndroidStudioProjects/OysterNews/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/OysterNews/app/src/main/res/drawable/user.xml" value="0.141" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/OysterNews/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/OysterNews/app/src/main/res/xml/settings.xml" value="0.2814814814814815" />
       </map>
     </option>
   </component>

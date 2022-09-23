@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceCategory
+    android:title="General Settings"
+    app:iconSpaceReserved="false">
+    <EditTextPreference
+        android:defaultValue="@string/defValue_user"
+        android:key="@string/profile"
+        android:title="@string/title_status"
+        app:dialogTitle="@string/title_dialog_status"
+        app:iconSpaceReserved="true"
+        android:icon="@drawable/user"
+        app:useSimpleSummaryProvider="true" />
+    <SwitchPreferenceCompat
+        android:icon="@drawable/dark"
+        android:title="@string/Mode"
+        android:key="@string/darkmode"
+        android:defaultValue="false"
+        android:summary="@string/summary"/>
+</PreferenceCategory>
+<PreferenceCategory
+    android:title="Other Settings"
+    app:iconSpaceReserved="false">
+    <Preference
+        android:key="Share_app"
+        android:title="Share app"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:key="Rate_app"
+        android:title="Rate 5"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:key="FeedBack"
+        android:summary="Your thoughts on app improvement"
+        android:title="Feedback"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:key="Check"
+        android:title="Check for updates"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:key="privacy"
+        android:title="Privacy &amp; Conditions"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:key="About Oyster"
+        android:title="About Oyster"
+        app:iconSpaceReserved="false"/>
+</PreferenceCategory>
+</PreferenceScreen>
