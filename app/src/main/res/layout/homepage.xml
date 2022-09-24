@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/ViewCard"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="1dp"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:contentDescription="@string/artcle"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/nw_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/startmargin"
+            android:layout_marginTop="@dimen/top_margin_text"
+            android:layout_marginEnd="@dimen/endmargin"
+            android:ellipsize="end"
+            android:maxLength="65"
+            android:maxLines="3"
+            android:text="Technology at glance"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ViewCard"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/art_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/startmargin"
+            android:layout_marginTop="155dp"
+            android:ellipsize="end"
+            android:textSize="12sp"
+            android:maxLength="20"
+            android:background="@color/whiteGrad"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nw_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="bbc.com/news"/>
+        <!-- Share Button -->
+        <ImageButton
+            android:id="@+id/art_share"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="@string/share"
+            app:layout_constraintEnd_toStartOf="@+id/ViewCard"
+            app:srcCompat="@drawable/share" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

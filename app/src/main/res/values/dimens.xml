@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="startmargin">8dp</dimen>
+    <dimen name="topmargin">8dp</dimen>
+    <dimen name="endmargin">65dp</dimen>
+    <dimen name="textsize">16sp</dimen>
+    <dimen name="top_margin_text">110dp</dimen>
+</resources>
